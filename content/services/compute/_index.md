@@ -9,13 +9,13 @@ The compute nodes are the machines dedicated to running PureVanilla's actual gam
 | **Connection**          | Gigabit                                                  |
 
 ## Water Consumption
-Our compute nodes are 100% air cooled, and we use absolutely no water for heat disipation.
+Our compute nodes are 100% air cooled, and we use absolutely no water for heat dissipation.
 
 ## Energy Consumption
-Our electricity is sourced from 100% renewable energies – mostly from hydropower.
+Our electricity is sourced from 100% renewable energies – mostly hydropower.
 
 ## Runtime
-We run our servers using Docker running on top of Debian, managed by serverbench.io daemon. We always run the latest versions for all of these tools.
+We run our servers using Docker running on top of Debian, managed by the serverbench.io daemon. We always run the latest versions for all of these tools.
 
 
 ## Tour
