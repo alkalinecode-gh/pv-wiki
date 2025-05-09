@@ -1,4 +1,6 @@
-
++++
+title = 'MOTDs'
++++
 # MOTDs
 The MOTD (message of the day) is the message shown on the server list. We have a limited MOTD history for the early days of the server.
 
