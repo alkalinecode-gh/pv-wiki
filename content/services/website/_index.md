@@ -1,5 +1,5 @@
 # Website
-Our website provider useful tools for the server, mainly the server store and the voting page.
+Our website provides useful resources for our players, mainly the server store and the voting page.
 
 # History
 ## 2019
