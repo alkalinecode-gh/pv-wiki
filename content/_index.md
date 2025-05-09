@@ -1,3 +1,6 @@
++++
+title = 'Wiki Homepage'
++++
 # Welcome to the official PureVanilla Wiki!
 
 ## What is PureVanilla?
