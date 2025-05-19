@@ -5,7 +5,7 @@ title = 'MOTDs'
 The MOTD (message of the day) is the message shown on the server list. We have a limited MOTD history for the early days of the server.
 
 {{% hint info %}}
-Compiled by [networkException](https://www.reddit.com/user/networkExceptions/) on the original Reddit wiki. Timestamps are in GMT
+Compiled by [networkException](https://www.reddit.com/user/networkExceptions/) on the original Reddit wiki. Timestamps are in GMT.
 {{% /hint %}}
 
 ## 1.13 / 1.14
