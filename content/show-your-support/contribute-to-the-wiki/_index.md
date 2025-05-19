@@ -7,6 +7,119 @@ To contribute to the Wiki, you will need a [GitHub](https://github.com/signup) a
 ## Workspace setup
 
 {{< tabs "OS" >}}
+{{% tab "GitHub (Recommended)" %}}
+1. Log into your [GitHub](https://github.com/login) account.
+2. Navigate to [→ our GitHub repository](https://github.com/purevanillaco/wiki/) and fork it.
+
+![image](images/fork/fork-button.png)
+
+* We recommend using the name `pv-wiki` for your fork.
+
+![image](images/fork/fork-dialog.png)
+
+3. Create a new branch with a descriptive name for the changes you want to make. Click on the dropdown labeled "main", then click "View all branches".
+
+![image](images/branch/branch-overview.png)
+
+* Click "New branch" in the top-right corner.
+
+![image](images/branch/new-branch.png)
+
+* Choose a name that reflects the changes you plan to make to the wiki and create the branch.
+
+![image](images/branch/new-branch-dialog.png)
+
+* Select the newly created branch by clicking on the dropdown labeled "main" once again and selecting your branch.
+
+![image](images/branch/branch-switch.png)
+
+4. You can now make changes. Navigate to the `content/` directory to edit wiki articles.
+
+![image](images/commit/content-dir.png)
+
+* You can create new articles by clicking the "Add File" button in the top right and selecting "Create new file".
+
+![image](images/commit/add-file.png)
+
+* Every article has their own folder with a file named `_index.md` which determines its content. You can create new files in new directories by typing a forward slash (`/`) in the new file name. Check out [Making Changes](#making-changes) for more details.
+
+![image](images/commit/new-article.png)
+
+* Once you're done with a change, click on the "Commit changes" button in the top right.
+
+![image](images/commit/commit-button.png)
+
+* Enter a fitting commit message and commit your changes. Make sure to follow our [Commit style guide](#commits).
+
+![image](images/commit/commit-dialog.png)
+
+* You can also edit already existing articles by clicking the editing icon on a file.
+
+![image](images/commit/edit-page.png)
+
+5. Once you've made the changes you wanted to make, you can test them out on your own copy of the wiki. To do this, you first need to set up some things. First, click on the "Settings" tab on your repository.
+
+![image](images/pages-config/settings-tab.png)
+
+* Now, click "Pages" on the left.
+
+![image](images/pages-config/pages-settings.png)
+
+* Under "Build and deployment" select "GitHub Actions" on the "Source" dropdown.
+
+![image](images/pages-config/pages-from-actions.png)
+
+* Navigate to "Environments" on the left.
+
+![image](images/pages-config/environments-settings.png)
+
+* Select the `github-pages` environment.
+
+![image](images/pages-config/github-pages-env.png)
+
+* In the "Deployment branches and tags" section, click on "Edit" next to the rule enabling deployment from `main`.
+
+![image](images/pages-config/edit-deploy-allow.png)
+
+* Replace the text `main` with a single asterisk `*`. (This is a wildcard and includes all branches)
+
+![image](images/pages-config/pages-deploy-wildcard.png)
+
+6. You've now successfully set up deploying the wiki to GitHub pages. To deploy and view your changes, first click on the "Actions" tab at the top of the page.
+
+![image](images/pages-deploy/actions-tab.png)
+
+* Click on "Deploy Hugo site to Pages" on the left
+
+![image](images/pages-deploy/deploy-action.png)
+
+* You will see an info box saying "This workflow has a `workflow_dispatch` event trigger". Click on the "Run workflow" button next to it.
+
+![image](images/pages-deploy/run-workflow-button.png)
+
+* Select the branch with the changes you want to view and click on the "Run workflow" button in the dialog box.
+
+![image](images/pages-deploy/run-workflow-dialog.png)
+
+* You workflow has now been started. Click on it and wait for it to complete (green indicator). If the progress does not update, try reloading the page.
+
+![image](images/pages-deploy/workflow-status.png)
+
+* Once the workflow has completed, click on the link below the "deploy" step.
+
+![image](images/pages-deploy/workflow-success.png)
+
+* In case you're unable to locate this link, it usually follows this pattern (insert your own username):
+
+```html
+https://your-username.github.io/pv-wiki/
+```
+
+* You should now see your own copy of the wiki in your browser with your changes applied.
+
+![image](images/pages-deploy/example-page-a.png)
+
+{{% /tab %}}
 {{% tab "Windows" %}}
 1. Install `git`
 	* [→ Download here](https://git-scm.com/downloads)
