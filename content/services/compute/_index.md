@@ -23,6 +23,7 @@ Node 1 was added on 2025-05-18 and went online at 18:12 UTC. It is dedicated to 
 |-|-|
 | **Processor** | Intel® Core™ i5-12500 |
 | **Memory** | 64108 MiB |
+| **Storage** | 8 TB physical in RAID 1, 4 TB logical |
 | **OS** | Debian 12 (Bookworm) |
 
 ![neofetch on node 1](images/node1-neofetch.webp)
