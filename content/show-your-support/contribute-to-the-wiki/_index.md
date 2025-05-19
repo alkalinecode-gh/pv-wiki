@@ -8,6 +8,10 @@ To contribute to the Wiki, you will need a [GitHub](https://github.com/signup) a
 
 {{< tabs "OS" >}}
 {{% tab "GitHub (Recommended)" %}}
+{{% hint info %}}
+This guide is recommended for most users.
+{{% /hint %}}
+
 1. Log into your [GitHub](https://github.com/login) account.
 2. Navigate to [→ our GitHub repository](https://github.com/purevanillaco/wiki/) and fork it.
 
@@ -123,6 +127,28 @@ https://your-username.github.io/pv-wiki/
 
 8. Thanks for contributing!
 
+{{% /tab %}}
+{{% tab "DevContainer" %}}
+{{% hint warning %}}
+This guide is intended for technical users only.
+{{% /hint %}}
+{{% hint info %}}
+This guide assumes you are using **Visual Studio Code**. If you are using something else, check out the [list of officially supported tools and editors](https://containers.dev/supporting) for DevContainers.
+{{% /hint %}}
+1. You will need to have `git` installed and to have cloned your fork of our repository locally.
+2. Open Visual Studio Code and install the "Dev Containers" extension (identifier: `ms-vscode-remote.remote-containers`).
+3. Open the repository in Visual Studio Code. You will be prompted that the workspace contains DevContainer configuration files - click "Reopen in container".
+4. Please create a branch with a name relevant to your intended changes.
+```bash
+git checkout -b <branch-name>
+```
+4. [Make changes](#making-changes) and commit them from within Visual Studio Code. Thanks to DevContainers, your host machine does not need to support for Hugo or Golang to host a local instance of the wiki which you can view your changes on live. Simply open your terminal within Visual Studio Code and type
+```bash
+hugo server
+```
+5. You should be able to see your changes at `localhost:1313`. If that port is unavailable, you will be prompted about what port to use instead.
+6. Once you are done making changes, open a pull request as detailed [here](#pull-requests).
+7. Thanks for contributing!
 {{% /tab %}}
 {{% tab "Windows" %}}
 1. Install `git`
