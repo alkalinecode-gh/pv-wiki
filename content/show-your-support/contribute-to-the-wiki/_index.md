@@ -119,6 +119,10 @@ https://your-username.github.io/pv-wiki/
 
 ![image](images/pages-deploy/example-page-a.png)
 
+7. Check out the [Pull Requests section](#pull-requests) to find out how to have your changes be added to the official wiki page!
+
+8. Thanks for contributing!
+
 {{% /tab %}}
 {{% tab "Windows" %}}
 1. Install `git`
@@ -150,7 +154,7 @@ git checkout -b <branch-name>
 ```batch
 git push -u origin <branch-name>
 ```
-11. Finally, create a pull request by navigating to the website of your GitHub repository `https://github.com/<your-username>/pv-wiki/`, select the branch you worked on, and click "Contribute". You can now open a pull request that describes your changes, which will later be reviewed and, if everything is in order, merged into the real, official, PureVanilla wiki!
+11. Check out the [Pull Requests section](#pull-requests) to find out how to have your changes be added to the official wiki page!
 12. Thanks for contributing!
 {{% /tab %}}
 {{% tab "macOS" %}}
@@ -181,7 +185,7 @@ git checkout -b <branch-name>
 ```bash
 git push -u origin <branch-name>
 ```
-11. Finally, create a pull request by navigating to the website of your GitHub repository `https://github.com/<your-username>/pv-wiki/`, select the branch you worked on, and click "Contribute". You can now open a pull request that describes your changes, which will later be reviewed and, if everything is in order, merged into the real, official, PureVanilla wiki!
+11. Check out the [Pull Requests section](#pull-requests) to find out how to have your changes be added to the official wiki page!
 12. Thanks for contributing!
 {{% /tab %}}
 {{% tab "Linux" %}}
@@ -232,7 +236,7 @@ git checkout -b <branch-name>
 ```bash
 git push -u origin <branch-name>
 ```
-9. Finally, create a pull request by navigating to the website of your GitHub repository `https://github.com/<your-username>/pv-wiki/`, select the branch you worked on, and click "Contribute". You can now open a pull request that describes your changes, which will later be reviewed and, if everything is in order, merged into the real, official, PureVanilla wiki!
+9. Check out the [Pull Requests section](#pull-requests) to find out how to have your changes be added to the official wiki page!
 10. Thanks for contributing!
 {{% /tab %}}
 {{< /tabs >}}
@@ -347,3 +351,23 @@ Added a download link and additional information about the simply1 map that rese
 ```
 
 > **Note:** Don't stress too hard over this, often just having read this once and keeping it in the back of your mind will help you write a good commit message; you do not need to fit every single criterion of this guide perfectly.
+
+## Pull Requests
+
+A **pull request** is a *request* from you to us to *pull* the changes from your fork of the wiki into the official wiki repository and thus add them to the offical website.
+
+Navigate to the GitHub page of your fork and make sure to be logged in & select the correct branch!
+
+1. Press the "Contribute" button.
+
+![image](images/pull-request/contribute-button.png)
+
+2. In the dialog that appears next, click "Open pull request".
+
+![image](images/pull-request/contribute-dialog.png)
+
+3. Give your PR a descriptive title and detailed description, then submit it!
+
+![image](images/pull-request/pr-dialog.png)
+
+4. You're done! We will now review your changes and message you on the page of your pull request for any follow up questions. Once we've confirmed that your pull request follows our standards, we will merge it into the official repository and you'll be able to see it on the official page!
